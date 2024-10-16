@@ -13,18 +13,18 @@ const CONFIG = {
   projects: [
     {
       name: `efe-atas`,
-      href: "https://github.com/efe-atas/blog",
+      href: "https://efeatas.dev",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "efe-atas",
+    title: "efeatas",
     description: "welcome to efe-atas!",
     scheme: "dark", // 'light' | 'dark' | 'system'
   },
 
   // CONFIG configration (required)
-  link: "https://blog-self-gamma-97.vercel.app",
+  link: "https://efeatas.dev",
   since: 2001, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
