@@ -56,7 +56,7 @@ const CONFIG = {
   utterances: {
     enable: false,
     config: {
-      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
+      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "https://github.com/efe-atas/ML",
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
@@ -69,7 +69,7 @@ const CONFIG = {
     },
   },
   isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
-  revalidateTime: 1, // revalidate time for [slug], index
+  revalidateTime: 30, // revalidate time for [slug], index
 }
 
 module.exports = { CONFIG }
