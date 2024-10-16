@@ -56,7 +56,7 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "https://github.com/efe-atas/ML",
+      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "efe-atas/ML",
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
